@@ -1,28 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_printf.h                                        :+:      :+:    :+:   */
+/*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mpapin <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/17 14:40:47 by mpapin            #+#    #+#             */
-/*   Updated: 2024/09/17 14:40:47 by mpapin           ###   ########.fr       */
+/*   Created: 2024/09/17 14:43:28 by mpapin            #+#    #+#             */
+/*   Updated: 2024/09/17 14:43:28 by mpapin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#ifndef FT_PRINTF_H
-# define FT_PRINTF_H
 
-# include <stdarg.h>
-# include <unistd.h>
-# include "../libft/libft.h"
+#include "../includes/ft_printf.h"
 
-int		ft_printf(const char *str, ...);
-int		ft_putchar(int c);
-int		ft_putstr(char *str);
-int		ft_putnbr(int n);
-int		ft_puthex(unsigned int num, char format);
-int		ft_putptr(void *ptr);
-int		ft_putnsigned(unsigned int n);
-int		ft_putpercent(void);
+int	ft_putnbr(int n)
+{
+	int	nb_caracter;
 
-#endif
+	nb_caracter = 0;
+	if (n == -2147483648)
+		return (ft_putstr("-2147483648"));
+	if (n < 0)
+	{
+		nb_caracter += ft_putchar('-');
+		n = -n;
+	}
+	if (n > 9)
+		nb_caracter += ft_putnbr(n / 10);
+	nb_caracter += ft_putchar((n % 10) + '0');
+	return (nb_caracter);
+}

@@ -6,7 +6,7 @@
 /*   By: mpapin <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 15:59:42 by mpapin            #+#    #+#             */
-/*   Updated: 2024/09/10 15:59:42 by mpapin           ###   ########.fr       */
+/*   Updated: 2024/10/21 15:16:48 by mpapin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,3 +24,14 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
+
+// int	main(void)
+// {
+// 	char src[] = "Hello, World!";
+// 	char dst[20];
+
+// 	ft_memcpy(dst, src, 13);
+// 	dst[13] = '\0';
+// 	printf("%s\n", dst);
+// 	return (0);
+// }

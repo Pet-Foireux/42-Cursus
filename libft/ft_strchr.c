@@ -6,7 +6,7 @@
 /*   By: mpapin <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 16:00:15 by mpapin            #+#    #+#             */
-/*   Updated: 2024/09/10 16:13:38 by mpapin           ###   ########.fr       */
+/*   Updated: 2024/10/21 15:19:22 by mpapin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,3 +27,10 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *) s + i);
 	return (NULL);
 }
+
+// int	main(void)
+// {
+// 	char *result = ft_strchr("Hello, World!", 'W');
+// 	printf("%s\n", result);
+// 	return (0);
+// }

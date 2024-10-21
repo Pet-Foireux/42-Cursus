@@ -6,7 +6,7 @@
 /*   By: mpapin <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 16:00:11 by mpapin            #+#    #+#             */
-/*   Updated: 2024/09/10 16:00:11 by mpapin           ###   ########.fr       */
+/*   Updated: 2024/10/21 15:19:08 by mpapin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,3 +81,16 @@ char	**ft_split(char const *s, char c)
 	set_mem(tab, s, c);
 	return (tab);
 }
+
+// int	main(void)
+// {
+// 	char **result = ft_split("Hello, World! Welcome to C programming.", ' ');
+
+// 	for (int i = 0; result[i]; i++)
+// 	{
+// 		printf("%s\n", result[i]);
+// 		free(result[i]);
+// 	}
+// 	free(result);
+// 	return (0);
+// }

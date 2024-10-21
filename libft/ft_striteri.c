@@ -6,7 +6,7 @@
 /*   By: mpapin <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 16:00:23 by mpapin            #+#    #+#             */
-/*   Updated: 2024/09/10 16:00:23 by mpapin           ###   ########.fr       */
+/*   Updated: 2024/10/21 15:19:56 by mpapin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,3 +23,15 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }
+
+// void print_char(unsigned int index, char *c)
+// {
+//     printf("Character at index %u: %c\n", index, *c);
+// }
+
+// int	main(void)
+// {
+// 	char str[] = "Hello, World!";
+// 	ft_striteri(str, print_char);
+// 	return (0);
+// }

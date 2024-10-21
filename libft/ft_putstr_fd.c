@@ -6,7 +6,7 @@
 /*   By: mpapin <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 16:00:07 by mpapin            #+#    #+#             */
-/*   Updated: 2024/09/10 16:15:05 by mpapin           ###   ########.fr       */
+/*   Updated: 2024/10/21 15:18:46 by mpapin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,3 +21,9 @@ void	ft_putstr_fd(char const *s, int fd)
 		i++;
 	write(fd, s, i);
 }
+
+// int	main(void)
+// {
+// 	ft_putstr_fd("Hello, World!", 1);
+// 	return (0);
+// }

@@ -6,7 +6,7 @@
 /*   By: mpapin <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 16:01:09 by mpapin            #+#    #+#             */
-/*   Updated: 2024/09/10 16:01:09 by mpapin           ###   ########.fr       */
+/*   Updated: 2024/10/21 15:24:02 by mpapin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -105,3 +105,13 @@ char	*ft_strtrim(char const *s1, char const *set)
 		return (NULL);
 	return (new);
 }
+
+// int	main(void)
+// {
+// 	char *result;
+
+// 	result = ft_strtrim("   Hello, World!   ", " ");
+// 	printf("%s\n", result);
+// 	free(result);
+// 	return (0);
+// }

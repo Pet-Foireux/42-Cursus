@@ -6,7 +6,7 @@
 /*   By: mpapin <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 15:58:27 by mpapin            #+#    #+#             */
-/*   Updated: 2024/09/10 15:58:27 by mpapin           ###   ########.fr       */
+/*   Updated: 2024/10/21 15:09:33 by mpapin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,3 +37,12 @@ int	ft_atoi(const char *str)
 	}
 	return (nbr * sign);
 }
+
+// int	main(void)
+// {
+// 	const char *test = "   -12345";
+
+// 	printf("%d\n", ft_atoi(test));
+
+// 	return (0);
+// }

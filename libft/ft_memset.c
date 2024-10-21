@@ -6,7 +6,7 @@
 /*   By: mpapin <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 15:59:51 by mpapin            #+#    #+#             */
-/*   Updated: 2024/09/10 15:59:51 by mpapin           ###   ########.fr       */
+/*   Updated: 2024/10/21 15:17:34 by mpapin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,11 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (b);
 }
+
+// int	main(void)
+// {
+// 	char str[20] = "Hello, World!";
+// 	ft_memset(str, 'X', 5);
+// 	printf("%s\n", str);
+// 	return (0);
+// }

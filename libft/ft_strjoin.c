@@ -6,7 +6,7 @@
 /*   By: mpapin <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 16:00:27 by mpapin            #+#    #+#             */
-/*   Updated: 2024/09/10 16:00:27 by mpapin           ###   ########.fr       */
+/*   Updated: 2024/10/21 15:20:12 by mpapin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,3 +36,11 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	new[i + j] = '\0';
 	return (new);
 }
+
+// int	main(void)
+// {
+// 	char *result = ft_strjoin("Hello, ", "World!");
+// 	printf("%s\n", result);
+// 	free(result);
+// 	return (0);
+// }

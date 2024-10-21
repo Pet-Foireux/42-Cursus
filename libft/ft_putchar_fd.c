@@ -6,7 +6,7 @@
 /*   By: mpapin <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 15:59:55 by mpapin            #+#    #+#             */
-/*   Updated: 2024/09/10 16:14:54 by mpapin           ###   ########.fr       */
+/*   Updated: 2024/10/21 15:17:50 by mpapin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,3 +16,9 @@ void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
 }
+
+// int	main(void)
+// {
+// 	ft_putchar_fd('A', 1);
+// 	return (0);
+// }

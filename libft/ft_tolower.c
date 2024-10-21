@@ -6,7 +6,7 @@
 /*   By: mpapin <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 16:01:17 by mpapin            #+#    #+#             */
-/*   Updated: 2024/09/10 16:01:17 by mpapin           ###   ########.fr       */
+/*   Updated: 2024/10/21 15:25:47 by mpapin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,13 @@ int	ft_tolower(int c)
 		return (c + 'a' - 'A');
 	return (c);
 }
+
+// int main()
+// {
+//     int result;
+
+//     result = ft_tolower('G');
+//     printf("%c\n", result);
+
+//     return 0;
+// }

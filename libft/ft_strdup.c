@@ -6,7 +6,7 @@
 /*   By: mpapin <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 16:00:19 by mpapin            #+#    #+#             */
-/*   Updated: 2024/09/10 16:13:53 by mpapin           ###   ########.fr       */
+/*   Updated: 2024/10/21 15:19:43 by mpapin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,11 @@ char	*ft_strdup(const char *s1)
 	new[i] = '\0';
 	return (new);
 }
+
+// int	main(void)
+// {
+// 	char *dup = ft_strdup("Hello, World!");
+// 	printf("%s\n", dup);
+// 	free(dup);
+// 	return (0);
+// }

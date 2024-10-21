@@ -6,7 +6,7 @@
 /*   By: mpapin <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 16:00:46 by mpapin            #+#    #+#             */
-/*   Updated: 2024/09/10 16:00:46 by mpapin           ###   ########.fr       */
+/*   Updated: 2024/10/21 15:22:43 by mpapin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,3 +23,9 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 		return ((unsigned char) s1[i] - (unsigned char) s2[i]);
 	return (0);
 }
+
+// int	main(void)
+// {
+// 	printf("%d\n", ft_strncmp("Hello", "Hello, World!", 5));
+// 	return (0);
+// }

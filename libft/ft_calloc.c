@@ -6,7 +6,7 @@
 /*   By: mpapin <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 15:58:33 by mpapin            #+#    #+#             */
-/*   Updated: 2024/09/10 15:58:33 by mpapin           ###   ########.fr       */
+/*   Updated: 2024/10/21 15:12:49 by mpapin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,3 +35,15 @@ void	*ft_calloc(size_t count, size_t size)
 		return (NULL);
 	return (ft_memalloc(count * size));
 }
+
+// int	main(void)
+// {
+// 	int	*arr;
+
+// 	arr = (int *)ft_calloc(5, sizeof(int));
+// 	if (arr)
+// 		printf("%d\n", arr[0]);
+
+// 	free(arr);
+// 	return (0);
+// }

@@ -6,7 +6,7 @@
 /*   By: mpapin <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 16:01:13 by mpapin            #+#    #+#             */
-/*   Updated: 2024/09/10 16:01:13 by mpapin           ###   ########.fr       */
+/*   Updated: 2024/10/21 15:25:31 by mpapin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,14 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	new[i] = '\0';
 	return (new);
 }
+
+// int main()
+// {
+//     char *result;
+
+//     result = ft_substr("Hello, World!", 7, 5);
+//     printf("%s\n", result);
+//     free(result);
+
+//     return 0;
+// }

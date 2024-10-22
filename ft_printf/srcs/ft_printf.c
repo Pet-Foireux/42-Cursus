@@ -84,19 +84,19 @@ int	ft_printf(const char *str, ...)
 	return (nb_caracter);
 }
 
-// int	main(void)
-// {
-// 	int	a;
+int	main(void)
+{
+	int	a;
 
-// 	ft_printf("%c\n", 'C');
-// 	ft_printf("%s\n", "Hello, world!");
-// 	ft_printf("%d\n", 123456789);
-// 	ft_printf("%i\n", 42);
-// 	a = 4123123;
-// 	ft_printf("%p\n", &a);
-// 	ft_printf("%u\n", 42);
-// 	ft_printf("%x\n", 255);
-// 	ft_printf("%X\n", 255);
-// 	ft_printf("C%%\n");
-// 	return (0);
-// }
+	ft_printf("%c\n", 'C');
+	ft_printf("%s\n", "Hello, world!");
+	ft_printf("%d\n", 123456789);
+	ft_printf("%i\n", 42);
+	a = 4123123;
+	ft_printf("%p\n", &a);
+	ft_printf("%u\n", 42);
+	ft_printf("%x\n", 255);
+	ft_printf("%X\n", 255);
+	ft_printf("C%%\n");
+	return (0);
+}

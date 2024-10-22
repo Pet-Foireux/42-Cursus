@@ -6,7 +6,7 @@
 /*   By: mpapin <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 16:00:51 by mpapin            #+#    #+#             */
-/*   Updated: 2024/10/21 15:23:01 by mpapin           ###   ########.fr       */
+/*   Updated: 2024/10/22 17:21:02 by mpapin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,6 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	size_t	i;
 	size_t	j;
 
-	if (!haystack || !needle)
-		return (NULL);
 	if (ft_strlen(needle) == 0)
 		return ((char *) haystack);
 	len_n = ft_strlen(needle);

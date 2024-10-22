@@ -6,7 +6,7 @@
 /*   By: mpapin <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 16:00:55 by mpapin            #+#    #+#             */
-/*   Updated: 2024/10/21 15:23:16 by mpapin           ###   ########.fr       */
+/*   Updated: 2024/10/22 17:19:45 by mpapin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,6 @@ char	*ft_strrchr(const char *s, int c)
 {
 	int	i;
 
-	if (!s)
-		return (NULL);
 	i = ft_strlen(s);
 	while (i >= 0)
 	{

@@ -6,7 +6,7 @@
 /*   By: mpapin <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 16:00:11 by mpapin            #+#    #+#             */
-/*   Updated: 2024/10/21 15:19:08 by mpapin           ###   ########.fr       */
+/*   Updated: 2024/10/22 17:02:22 by mpapin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ static size_t	count_words(char const *s, char c)
 	i = 0;
 	while (s[i])
 	{
-		if (s[i] != c && (s[i + 1] == c || s[i + 1] == '\0'))
+		if ((s[i] != c) && (s[i + 1] == c || s[i + 1] == '\0'))
 			words++;
 		i++;
 	}
@@ -33,7 +33,7 @@ static void	fill_tab(char *new, char const *s, char c)
 	size_t	i;
 
 	i = 0;
-	while (s[i] && s[i] != c)
+	while ((s[i]) && (s[i] != c))
 	{
 		new[i] = s[i];
 		i++;
@@ -52,7 +52,7 @@ static void	set_mem(char **tab, char const *s, char c)
 	while (s[index])
 	{
 		count = 0;
-		while (s[index + count] && s[index + count] != c)
+		while ((s[index + count]) && (s[index + count] != c))
 			count++;
 		if (count > 0)
 		{
@@ -84,7 +84,7 @@ char	**ft_split(char const *s, char c)
 
 // int	main(void)
 // {
-// 	char **result = ft_split("Hello, World! Welcome to C programming.", ' ');
+// 	char **result = ft_split("J'aime Shrek plus que le tarpe de fiona", ' ');
 
 // 	for (int i = 0; result[i]; i++)
 // 	{
